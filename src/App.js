@@ -52,7 +52,7 @@ function App() {
   async function getStripeApiKey() {
     const { data } = await axios.get("/api/vi/stripeapikey");
 
-    setStripeApiKey(data.stripeApiKey);
+    setStripeApiKey(data.stripeApiKey); 
   }
  
 //  console.log(isAuthenticated);
